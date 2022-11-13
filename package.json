@@ -1,0 +1,21 @@
+{
+  "name": "hex-animate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=/www.andrewgies.com/hex/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.188",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
